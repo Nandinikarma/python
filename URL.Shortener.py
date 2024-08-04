@@ -1,0 +1,9 @@
+import pyshorteners
+
+link=input("EgZjaHJvbWUqEggDEAAYQxiDARixAxiABBiKBTIGCAAQRRg5MgwIARAjGCcYgAQYigUyBggCECMYJzISCAMQABhDGIMBGLEDGIAEGIoFMgwIBBAAGEMYgAQYigUyEggFEC4YQxiDARixAxiABBiKBTIMCAYQLhhDGIAEGIoFMhIIBxAAGEMYgwEYsQMYgAQYigUyDwgIEAAYQxixAxiABBiKBTISCAkQLhhDGMcBGNEDGIAEGIoF0gEJNTIyOWowajE1qAIIsAIB")
+
+shortener=pyshorteners.Shortener()
+
+shorted_link=shortener.tinyurl.short(link)
+
+print(shorted_link)
